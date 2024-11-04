@@ -1,10 +1,7 @@
-# pycache
-*__pycache__*
+# Byte-compiled / optimized / DLL files
+__pycache__/
 
-# myenv
-
-myenv
-
+# Test Results
 assets
-
 results
+report.html
