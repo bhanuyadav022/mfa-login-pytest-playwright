@@ -15,4 +15,3 @@ class BasePage:
 
     def click_element(self, selector):
         self.page.locator(selector).click()
-

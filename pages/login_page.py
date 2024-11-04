@@ -1,10 +1,12 @@
 from pages.base_page import BasePage
 from data.locator import login_locators
+
+
 class LoginPage(BasePage):
 
     def __init__(self, page, base_url):
         super().__init__(page, base_url)
-        
+
     def navigate_url(self):
         self.navigate("/login")
 
@@ -17,7 +19,7 @@ class LoginPage(BasePage):
     def set_totp(self, totp):
         self.fill_field(login_locators['mfa'], totp)
 
-    def enter_login_credentials (self, username, password, totp):
+    def enter_login_credentials(self, username, password, totp):
         self.set_username(username)
         self.set_password(password)
         self.set_totp(totp)
