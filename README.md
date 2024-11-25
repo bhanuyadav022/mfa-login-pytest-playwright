@@ -1,5 +1,5 @@
 # MFA Login
-This repo uses Page Object Model design principal to implement browser automation testing on MFA authentication using python, [Playwright](https://github.com/microsoft/playwright) and pytest.
+This repo uses Page Object Model design principal to implement browser automation testing on MFA authentication using python, [Playwright](https://playwright.dev/python/) and pytest.
 It is running automation tests against [demo website](https://seleniumbase.io/realworld/login) 
 
 
@@ -22,8 +22,8 @@ Clone the project
 ```
 2. Run Locally
 - Install Dependencies
-  - [playwright-pytest] (https://playwright.dev/python/docs/intro#installing-playwright-pytest)
-  - [pytest-html] (https://pytest-html.readthedocs.io/en/latest/installing.html#installing-pytest-html)
+  - [playwright-pytest](https://playwright.dev/python/docs/intro#installing-playwright-pytest)
+  - [pytest-html](https://pytest-html.readthedocs.io/en/latest/installing.html#installing-pytest-html)
 
 - Run command 
 ```shell
