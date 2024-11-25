@@ -1,5 +1,5 @@
 # MFA Login
-This repo uses Page Object Model design principal to implement browser automation testing on MFA authentication using python, Playwright and pytest.
+This repo uses Page Object Model design principal to implement browser automation testing on MFA authentication using python, [Playwright](https://github.com/microsoft/playwright) and pytest.
 It is running automation tests against [demo website](https://seleniumbase.io/realworld/login) 
 
 
